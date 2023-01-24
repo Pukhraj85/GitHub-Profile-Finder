@@ -17,7 +17,7 @@ function Footer() {
 
         <p>Contact me : </p>
         <a href={process.env.REACT_APP_LINKEDIN_URL} className="btn btn-ghost btn-sm rounded-btn">Linkedin</a>
-        <a href={process.env.REACT_APP_GITHUB_URL} className="btn btn-ghost btn-sm rounded-btn">Github</a>
+        <a href={process.env.REACT_APP_GITHUB_URL_PERSONAL} className="btn btn-ghost btn-sm rounded-btn">Github</a>
       </div>
     </footer>
   );
